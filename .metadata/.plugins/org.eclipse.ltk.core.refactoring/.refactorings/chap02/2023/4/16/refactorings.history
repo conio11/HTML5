@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;chap02/src/main/webapp/HTMLPageWithStype.html&apos; to &apos;HTMLPageWithStyle.html&apos;" description="Rename resource &apos;HTMLPageWithStype.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/HTMLPageWithStype.html" name="HTMLPageWithStyle.html" stamp="1681645256133" updateReferences="true"/>
+</session>
