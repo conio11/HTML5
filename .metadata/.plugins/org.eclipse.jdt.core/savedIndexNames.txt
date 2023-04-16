@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\KRIBTRY\IT\HTML5\.metadata\.plugins\org.eclipse.jdt.core
+1477527996.index
+1865797976.index
+2663481984.index

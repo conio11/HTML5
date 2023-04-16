@@ -1,0 +1,10 @@
+127.0.0.1 - - [16/Apr/2023:19:51:47 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [16/Apr/2023:19:51:48 +0900] "GET /chap02/HTMLPage.html HTTP/1.1" 200 145
+0:0:0:0:0:0:0:1 - - [16/Apr/2023:19:55:33 +0900] "GET /chap02/HTMLPageWithStype.html HTTP/1.1" 200 235
+0:0:0:0:0:0:0:1 - - [16/Apr/2023:19:58:09 +0900] "GET /chap02/HTMLPageWithLink.html HTTP/1.1" 200 204
+0:0:0:0:0:0:0:1 - - [16/Apr/2023:19:58:09 +0900] "GET /chap02/Style.css HTTP/1.1" 200 63
+0:0:0:0:0:0:0:1 - - [16/Apr/2023:20:01:56 +0900] "GET /chap02/HTMLPageWithScript.html HTTP/1.1" 200 234
+0:0:0:0:0:0:0:1 - - [16/Apr/2023:20:06:02 +0900] "GET /chap02/HTMLPageWithOuterScript.html HTTP/1.1" 200 175
+0:0:0:0:0:0:0:1 - - [16/Apr/2023:20:06:02 +0900] "GET /chap02/OuterJavaScript.js HTTP/1.1" 200 21
+0:0:0:0:0:0:0:1 - - [16/Apr/2023:20:06:35 +0900] "GET /chap02/HTMLPageWithOuterScript.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Apr/2023:20:06:35 +0900] "GET /chap02/OuterJavaScript.js HTTP/1.1" 200 25
