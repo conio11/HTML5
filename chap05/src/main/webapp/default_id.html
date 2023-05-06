@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>CSS3 Selector Basic Page</title>
+		<style>
+			#header { /* id가 header 인 요소에 css 속성을 지정 */
+				width: 800px; margin: 0 auto; /* margin: 요소 주위에 여백 */
+				background: red;
+			}
+			#wrap {
+				width: 800px; margin: 0 auto;
+				overflow: hidden; /* overflow: 요소가 클 경우 어떻게 처리할지 지정, hidden: 요소 내용이 밖으로 나오지 않게 자름 */
+			}
+			#aside {
+				width: 200px; float: left; /* float: 요소를 좌우로 띄울 때 사용 */
+				background: blue;
+				
+			}
+			#content {
+				width: 600px; float: left;
+				background: green;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<h1>#header 태그</h1>
+		</div>
+		<div id="wrap">
+			<div id="aside">
+				<h1>#aside 태그</h1>
+			</div>
+			<div id="content">
+				<h1>#content 태그</h1>
+			</div>
+		</div>
+	</body>
+</html>
