@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head> <!-- <table> 태그에 css 적용 시 자손 선택자는 사용하지 않는 것이 좋음  -->
+		<meta charset="UTF-8">
+		<title>CSS3 Selector Basic</title>
+		<style>
+			table > tr > th { /* 웹 브라우저가 <table> 아래에 자동으로 <tbody> 태그를 추가하기 때문에 css 속성 적용X */
+				color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<table border="1">
+			<tr>
+				<th>이름</th>
+				<th>지역</th>
+			</tr>
+			<tr>
+				<td>윤인성</td>
+				<td>서울특별시 강서구 내발산동</td>
+			</tr>
+		</table>
+	</body>
+</html>
